@@ -414,7 +414,8 @@ while (ver == 0):
             print("This inexperienced merchant points to 3 swords")
             Answer4_3_1 = int(input("1 - Beginner's sword, 2 - Old sword, 3 - New Wooden Sword"))
             if (Answer4_3_1 == 1):
-                print("Присматриваетесь к первому мечу. Простой, как раз для вас. Вы посмотрели")
+                print("Присматриваетесь к первому мечу. Простой, как раз для вас. Вы посмотрели на торговца.")
+                Answer4_3_01 = int(input("1 - Торговаться, 2 - Пропустить))
 
                 #Ситуация в магазине, торги , удача, первая проверка системы характеристик.
 
